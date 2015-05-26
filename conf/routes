@@ -5,6 +5,7 @@
 # Home page
 GET     /                           controllers.Application.index()
 GET     /registration               controllers.Application.registration()
+GET     /login                      controllers.Application.login()
 
 # Unversioned Assets
 GET         /assets/*file           controllers.Assets.at(path="/public", file)
