@@ -6,6 +6,7 @@
 GET     /                           controllers.Application.index()
 GET     /registration               controllers.Application.registration()
 GET     /login                      controllers.Application.login()
+GET     /forgotpassword             controllers.Application.forgotpassword()
 
 # Unversioned Assets
 GET         /assets/*file           controllers.Assets.at(path="/public", file)

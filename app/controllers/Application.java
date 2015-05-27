@@ -18,4 +18,8 @@ public class Application extends Controller {
     public static Result login() {
         return ok(login.render("Your new application is ready."));
     }
+    
+    public static Result forgotpassword() {
+        return ok(forgotpassword.render("Your new application is ready."));
+    }
 }
